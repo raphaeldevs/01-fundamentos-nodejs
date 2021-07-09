@@ -4,7 +4,13 @@
   "repository": "git@github.com:raphaeldevs/01-fundamentos-nodejs.git",
   "author": "Raphael Corrêa <raphaeldeoliveiracorrea@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10"
   }
 }
